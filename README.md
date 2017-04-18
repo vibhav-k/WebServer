@@ -1,17 +1,21 @@
 # WebServer
+
+## Version
 Python version - 3.4.4 
 
 Files included:
-	- webserver.py
-	- ws.conf (configuration file)
-	
+- webserver.py
+- ws.conf (configuration file)
+
+## Usage
 How to run the webserver script
 1. To run the script trigger below command from the directory where webserver.py is present
-			python webserver.py
+- python webserver.py
 2. Webserver can be run on ports between 1024 and 65536, which is set in the ws.conf file
 3. Make sure the ws.conf is present in the same directory as the script. Also make sure document root directory, where the html and other files are present, is updated in the ws.conf.
 4. To test the Performance Evaluation of the webserver, run the client.py program.
 
+## Design
 webserver.py
 1. Webserver can handle "GET" and "POST" requests from the client
 2. For other methods, server will respond with a "501 Not Implemented"
